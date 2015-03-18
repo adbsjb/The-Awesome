@@ -8,6 +8,21 @@
     <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:password="false"
-        android:phoneNumber="false" />
+        android:phoneNumber="false"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AMAZ-O-BUTTON"
+        android:id="@+id/button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:typeface="sans"
+        android:enabled="true"
+        android:clickable="true"
+        android:focusableInTouchMode="false"
+        android:nestedScrollingEnabled="false"
+        android:onClick="@android:string/dialog_alert_title" />
 
 </RelativeLayout>
